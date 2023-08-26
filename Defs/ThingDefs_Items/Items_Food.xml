@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<!-- Basic Food -->
+	<!-- Cookie -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Cookie</defName>
+		<label>cookie</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/Cookie</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	<!-- Porridge -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Gruel</defName>
+		<label>porridge</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/Porridge</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	<!-- Spaghetti -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Spaghetti</defName>
+		<label>porridge</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/Spaghetti</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	<!-- Intermediate Cooking -->
+	<!-- Chocolate Cookie -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Cookie_Chocolate</defName>
+		<label>porridge</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/ChocolateCookie</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	<!-- Croissant -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Croissant</defName>
+		<label>croissant</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/Croissant</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	<!-- Meat Fritters -->
+	<!--ThingDef ParentName="MealCooked">
+		<defName>DankPyon_MeatFritter</defName>
+		<label>croissant</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/MeatFritter</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef-->
+	
+	<!-- Flan -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Pudding</defName>
+		<label>pudding</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/Flan</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	<!-- Penne -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Penne</defName>
+		<label>penne</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/Penne</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	
+	<!-- Pizza -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Pizza</defName>
+		<label>pizza</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/Pizza</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	<!-- Advanced Cooking -->
+	<!-- Pizza -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_MeatPie</defName>
+		<label>meat pie</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/MeatPie</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealLavish</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	<!-- Raviolli -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Raviolli</defName>
+		<label>meat pie</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/Raviolli</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealLavish</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	<!-- Glazed Steak -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_GlazedSteak</defName>
+		<label>glazed steak</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/HoneySteak</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealLavish</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+	<!-- Turnover -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Turnover</defName>
+		<label>cheese turnover</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Meal/Turnover</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealLavish</preferability>
+			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+</Defs>
