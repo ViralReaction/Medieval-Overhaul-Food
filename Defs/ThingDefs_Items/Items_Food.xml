@@ -46,7 +46,7 @@
 			<Nutrition>1</Nutrition>
 		</statBases>
 		<ingestible>
-			<preferability>MealSimple</preferability>
+			<preferability>Awful</preferability>
 			<tasteThought>DankPyon_AtePorridge</tasteThought>
 			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
