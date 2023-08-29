@@ -18,12 +18,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealSimple</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AteCookie</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteBake</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>
@@ -47,15 +47,9 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealSimple</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
-			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
+			<tasteThought>DankPyon_AtePorridge</tasteThought>
+			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
-			<outcomeDoers>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
-					<severity>1</severity>
-				</li>
-			</outcomeDoers>
 		</ingestible>
 		<rotatable>false</rotatable>
 	</ThingDef>
@@ -76,12 +70,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealSimple</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AteSpaghetti</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteBake</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>
@@ -106,12 +100,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealFine</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AteCookie_Chocolate</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteBakeFine</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>
@@ -135,12 +129,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealFine</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AteCroissant</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteBakeFine</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>
@@ -193,12 +187,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealFine</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AteFlan</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteBakeFine</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>
@@ -222,12 +216,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealFine</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AtePenne</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteBakeFine</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>
@@ -252,12 +246,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealFine</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AtePizza</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteBakeFine</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>
@@ -266,7 +260,7 @@
 	</ThingDef>
 	
 	<!-- Advanced Cooking -->
-	<!-- Pizza -->
+	<!-- Meat Pie -->
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_MeatPie</defName>
 		<label>meat pie</label>
@@ -282,12 +276,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealLavish</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AteMeatPie</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteBakeLavish</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>
@@ -311,12 +305,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealLavish</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AteRaviolli</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteBakeLavish</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>
@@ -340,12 +334,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealLavish</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AteGlazedSteak</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteGlazedSteak</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>
@@ -369,12 +363,12 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealLavish</preferability>
-			<tasteThought>DankPyon_AteRoxSteak</tasteThought>
+			<tasteThought>DankPyon_AteTurnover</tasteThought>
 			<optimalityOffsetHumanlikes>18</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DankPyon_AteRoxSteak</hediffDef>
+					<hediffDef>DankPyon_AteBakeLavish</hediffDef>
 					<severity>1</severity>
 				</li>
 			</outcomeDoers>

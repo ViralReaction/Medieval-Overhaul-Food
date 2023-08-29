@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Cookies -->
+	<ThoughtDef>
+		<defName>DankPyon_AteCookie</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate cookies</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Porridge -->
+	<ThoughtDef>
+		<defName>DankPyon_AtePorridge</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate porridge</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Spaghetti -->
+	<ThoughtDef>
+		<defName>DankPyon_AteSpaghetti</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate spaghetti</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Chocolate Cookie -->
+	<ThoughtDef>
+		<defName>DankPyon_AteCookie_Chocolate</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate chocolate chip cookie</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Croissant -->
+	<ThoughtDef>
+		<defName>DankPyon_AteCroissant</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate croissant</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Flan -->
+	<ThoughtDef>
+		<defName>DankPyon_AteFlan</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate pudding</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Penne -->
+	<ThoughtDef>
+		<defName>DankPyon_AtePenne</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate penne</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Pizza -->
+	<ThoughtDef>
+		<defName>DankPyon_AtePizza</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate slice of pizza</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Meat Pie -->
+	<ThoughtDef>
+		<defName>DankPyon_AteMeatPie</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate meat pie</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Raviolli -->
+	<ThoughtDef>
+		<defName>DankPyon_AteRaviolli</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate raviolli</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Glazed Steak -->
+	<ThoughtDef>
+		<defName>DankPyon_AteGlazedSteak</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate glazed steak</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Turnover -->
+	<ThoughtDef>
+		<defName>DankPyon_AteTurnover</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>ate cheese turnover</label>
+				<description>What a tasty treat!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+
+
+</Defs>
