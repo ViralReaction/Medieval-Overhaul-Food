@@ -17,7 +17,7 @@
 						<li>DankPyon_Flour</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.25</count>
 			</li>
 			<li>
 				<filter>
@@ -25,7 +25,7 @@
 						<li>DankPyon_Sugar</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.25</count>
 			</li>
 		</ingredients>
 		<products>
@@ -79,13 +79,14 @@
 				<filter>
 					<thingDefs>
 						<li>DankPyon_RawWheat</li>
+						<li>DankPyon_Flour</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.30</count>
 			</li>
 		</ingredients>
 		<products>
-			<DankPyon_Gruel>2</DankPyon_Gruel>
+			<DankPyon_Gruel>1</DankPyon_Gruel>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -124,7 +125,7 @@
 	<!-- Spaghetti -->
 	<RecipeDef>
 		<defName>DankPyon_CookSpaghetti</defName>
-		<label>cook spaghetti x2</label>
+		<label>cook spaghetti</label>
 		<description>cook spaghetti.</description>
 		<jobString>Cooking spaghetti.</jobString>
 		<allowMixingIngredients>true</allowMixingIngredients>
@@ -136,7 +137,7 @@
 						<li>DankPyon_Flour</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.20</count>
 			</li>
 			<li>
 				<filter>
@@ -144,7 +145,7 @@
 						<li>EggsUnfertilized</li>
           			</categories>
 				</filter>
-				<count>0.9</count>
+				<count>0.1</count>
 			</li>
 			<li>
 				<filter>
@@ -152,7 +153,7 @@
 						<li>DankPyon_RawLentils</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.1</count>
 			</li>
 			<li>
 				<filter>
@@ -160,11 +161,11 @@
 						<li>DankPyon_RawHerb</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.1</count>
 			</li>
 		</ingredients>
 		<products>
-			<DankPyon_Spaghetti>2</DankPyon_Spaghetti>
+			<DankPyon_Spaghetti>1</DankPyon_Spaghetti>
 		</products>
 		<fixedIngredientFilter>
 			<categories>
@@ -222,7 +223,7 @@
 						<li>DankPyon_Milk</li>
           			</categories>
 				</filter>
-				<count>0.9</count>
+				<count>0.25</count>
 			</li>
 			<li>
 				<filter>
@@ -230,7 +231,7 @@
 						<li>DankPyon_Flour</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.5</count>
 			</li>
 			<li>
 				<filter>
@@ -238,7 +239,7 @@
 						<li>Chocolate</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.25</count>
 			</li>
 		</ingredients>
 		<products>
@@ -294,7 +295,7 @@
 						<li>DankPyon_Flour</li>
 					</thingDefs>
 				</filter>
-				<count>0.25</count>
+				<count>0.5</count>
 			</li>
 			<li>
 				<filter>
@@ -302,7 +303,7 @@
 						<li>DankPyon_Milk</li>
 					</categories>
 				</filter>
-				<count>0.25</count>
+				<count>0.5</count>
 			</li>
 		</ingredients>
 		<products>
@@ -402,7 +403,7 @@
 	<!-- Paste Penne -->
 	<RecipeDef>
 		<defName>DankPyon_CookPenne</defName>
-		<label>cook penne x2</label>
+		<label>cook penne</label>
 		<description>cook penne.</description>
 		<jobString>Cooking penne.</jobString>
 		<allowMixingIngredients>true</allowMixingIngredients>
@@ -414,7 +415,7 @@
 						<li>DankPyon_Flour</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.3</count>
 			</li>
 			<li>
 				<filter>
@@ -422,7 +423,7 @@
 						<li>EggsUnfertilized</li>
           			</categories>
 				</filter>
-				<count>0.9</count>
+				<count>0.10</count>
 			</li>
 			<li>
 				<filter>
@@ -430,7 +431,7 @@
 						<li>DankPyon_RawLentils</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.10</count>
 			</li>
 			
 			<li>
@@ -439,11 +440,11 @@
 						<li>DankPyon_RawHerb</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.10</count>
 			</li>
 		</ingredients>
 		<products>
-			<DankPyon_Penne>2</DankPyon_Penne>
+			<DankPyon_Penne>1</DankPyon_Penne>
 		</products>
 		<fixedIngredientFilter>
 			<categories>
@@ -499,7 +500,7 @@
 						<li>DankPyon_Milk</li>
           			</categories>
 				</filter>
-				<count>0.9</count>
+				<count>0.5</count>
 			</li>
 			<li>
 				<filter>
@@ -507,7 +508,7 @@
 						<li>EggsUnfertilized</li>
           			</categories>
 				</filter>
-				<count>0.9</count>
+				<count>0.2</count>
 			</li>
 			<li>
 				<filter>
@@ -515,7 +516,7 @@
 						<li>DankPyon_Sugar</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.2</count>
 			</li>
 			<li>
 				<filter>
@@ -523,7 +524,7 @@
 						<li>DankPyon_Honey</li>
           			</thingDefs>
 				</filter>
-				<count>0.6</count>
+				<count>0.1</count>
 			</li>
 		</ingredients>
 		<products>
@@ -656,7 +657,7 @@
 						<li>MeatRaw</li>
           			</categories>
 				</filter>
-				<count>0.9</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -664,7 +665,7 @@
 						<li>DankPyon_Flour</li>
           			</thingDefs>
 				</filter>
-				<count>0.6</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<products>
@@ -723,7 +724,7 @@
 						<li>DankPyon_Cheese</li>
           			</categories>
 				</filter>
-				<count>0.9</count>
+				<count>0.85</count>
 			</li>
 			<li>
 				<filter>
@@ -731,7 +732,7 @@
 						<li>DankPyon_Flour</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.50</count>
 			</li>
 			<li>
 				<filter>
@@ -739,7 +740,7 @@
 						<li>EggsUnfertilized</li>
           			</categories>
 				</filter>
-				<count>0.9</count>
+				<count>0.20</count>
 			</li>
 			<li>
 				<filter>
@@ -747,7 +748,7 @@
 						<li>DankPyon_RawTomatoes</li>
 					</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.20</count>
 			</li>
 			<li>
 				<filter>
@@ -755,7 +756,7 @@
 						<li>DankPyon_Spices</li>
 					</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.10</count>
 			</li>
 			<li>
 				<filter>
@@ -763,7 +764,7 @@
 						<li>DankPyon_Wine</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.15</count>
 			</li>
 		</ingredients>
 		<products>
@@ -813,9 +814,9 @@
 	<!-- Honey Steak -->
 	<RecipeDef>
 		<defName>DankPyon_CookHoneySteak</defName>
-		<label>cook honey steak x2</label>
-		<description>Cook 2 honey steaks.</description>
-		<jobString>Cook 2 honey steaks.</jobString>
+		<label>cook honey steak</label>
+		<description>Cook honey glazed steaks.</description>
+		<jobString>Cook honey glazed steaks.</jobString>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
@@ -825,7 +826,7 @@
 						<li>MeatRaw</li>
           			</categories>
 				</filter>
-				<count>0.9</count>
+				<count>0.30</count>
 			</li>
 			<li>
 				<filter>
@@ -833,7 +834,7 @@
 						<li>DankPyon_Ale</li>
 					</thingDefs>
 				</filter>
-				<count>0.8</count>
+				<count>0.10</count>
 			</li>
 			<li>
 				<filter>
@@ -841,7 +842,7 @@
 						<li>DankPyon_Salt</li>
 					</thingDefs>
 				</filter>
-				<count>0.5</count>
+				<count>0.10</count>
 			</li>
 			<li>
 				<filter>
@@ -849,11 +850,11 @@
 						<li>DankPyon_Honey</li>
           			</thingDefs>
 				</filter>
-				<count>0.6</count>
+				<count>0.20</count>
 			</li>
 		</ingredients>
 		<products>
-			<DankPyon_GlazedSteak>2</DankPyon_GlazedSteak>
+			<DankPyon_GlazedSteak>1</DankPyon_GlazedSteak>
 		</products>
 		<fixedIngredientFilter>
 			<categories>
@@ -911,7 +912,7 @@
 						<li>DankPyon_Cheese</li>
           			</categories>
 				</filter>
-				<count>0.9</count>
+				<count>0.6</count>
 			</li>
 			<li>
 				<filter>
@@ -919,15 +920,7 @@
 						<li>DankPyon_Flour</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>DankPyon_Sugar</li>
-          			</thingDefs>
-				</filter>
-				<count>0.9</count>
+				<count>0.3</count>
 			</li>
 			<li>
 				<filter>
@@ -935,7 +928,7 @@
 						<li>DankPyon_Honey</li>
           			</thingDefs>
 				</filter>
-				<count>0.9</count>
+				<count>0.3</count>
 			</li>
 		</ingredients>
 		<products>
