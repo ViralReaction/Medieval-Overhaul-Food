@@ -46,7 +46,7 @@
 			<Nutrition>1</Nutrition>
 		</statBases>
 		<ingestible>
-			<preferability>Awful</preferability>
+			<preferability>MealAwful</preferability>
 			<tasteThought>DankPyon_AtePorridge</tasteThought>
 			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
@@ -60,7 +60,7 @@
 		<label>porridge</label>
 		<description>WIP</description>
 		<graphicData>
-			<texPath>Meal/Spaghetti</texPath>
+			<texPath>Meal/PastaSpaghet</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -177,7 +177,7 @@
 		<label>pudding</label>
 		<description>WIP</description>
 		<graphicData>
-			<texPath>Meal/Flan</texPath>
+			<texPath>Meal/Pudding</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -206,7 +206,7 @@
 		<label>penne</label>
 		<description>WIP</description>
 		<graphicData>
-			<texPath>Meal/Penne</texPath>
+			<texPath>Meal/PastaPenne</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -236,7 +236,7 @@
 		<label>pizza</label>
 		<description>WIP</description>
 		<graphicData>
-			<texPath>Meal/Pizza</texPath>
+			<texPath>Meal/MedPizza</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -295,7 +295,7 @@
 		<label>meat pie</label>
 		<description>WIP</description>
 		<graphicData>
-			<texPath>Meal/Raviolli</texPath>
+			<texPath>Meal/PastaRaviolli</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
