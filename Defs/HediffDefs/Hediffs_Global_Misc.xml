@@ -3,7 +3,7 @@
 
 	<HediffDef>
 		<defName>DankPyon_AteGlazedSteak</defName>
-		<label>ate steak with wine</label>
+		<label>ate honey glazed steak</label>
 		<makesSickThought>false</makesSickThought>
 		<description>Ate a steak glazed with honey and spices, energizing the body. Greatly boosts workspeed and gets the blood pumping.</description>
 		<tendable>false</tendable>
