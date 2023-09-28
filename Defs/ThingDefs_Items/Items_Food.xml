@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	
+	<!-- Tier 0 -->
+	<!-- Porridge -->
+	<ThingDef ParentName="MealCooked">
+		<defName>DankPyon_Gruel</defName>
+		<label>porridge</label>
+		<description>A simple, nutritionally balanced meal made from processed grains and vegetables, perfect for sustaining colonists during the harshest of times.</description>
+		<graphicData>
+			<texPath>Meal/Porridge</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1100</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealAwful</preferability>
+			<tasteThought>DankPyon_AtePorridge</tasteThought>
+			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
 	<!-- Basic Food -->
 	<!-- Cookie -->
 	<ThingDef ParentName="MealCooked">
@@ -30,30 +54,7 @@
 		</ingestible>
 		<rotatable>false</rotatable>
 	</ThingDef>
-	
-	<!-- Porridge -->
-	<ThingDef ParentName="MealCooked">
-		<defName>DankPyon_Gruel</defName>
-		<label>porridge</label>
-		<description>A simple, nutritionally balanced meal made from processed grains and vegetables, perfect for sustaining colonists during the harshest of times.</description>
-		<graphicData>
-			<texPath>Meal/Porridge</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>75</MarketValue>
-			<WorkToMake>1100</WorkToMake>
-			<Nutrition>1</Nutrition>
-		</statBases>
-		<ingestible>
-			<preferability>MealAwful</preferability>
-			<tasteThought>DankPyon_AtePorridge</tasteThought>
-			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
-			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
-		</ingestible>
-		<rotatable>false</rotatable>
-	</ThingDef>
-	
+
 	<!-- Spaghetti -->
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Spaghetti</defName>
