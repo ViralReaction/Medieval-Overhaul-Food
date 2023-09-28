@@ -65,7 +65,70 @@
 			<li>DankPyon_StoneOven</li>
 		</recipeUsers>
 	</RecipeDef>
-	
+
+	<RecipeDef>
+		<defName>DankPyon_BakeCookie</defName>
+		<label>bake cookie x10</label>
+		<description>bake 10 cookies.</description>
+		<jobString>Baking 10 cookies.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>1.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Sugar</li>
+          			</thingDefs>
+				</filter>
+				<count>1.25</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Cookie>10</DankPyon_Cookie>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_Flour</li>
+				<li>DankPyon_Sugar</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>1750</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
 	<!-- Porridge -->
 	<RecipeDef>
 		<defName>DankPyon_CookGruel</defName>
@@ -108,7 +171,7 @@
 				<li>Meat_Megaspider</li>
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
-		<workAmount>350</workAmount>
+		<workAmount>225</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
@@ -121,7 +184,62 @@
 			<li>DankPyon_StoneOven</li>
 		</recipeUsers>
 	</RecipeDef>
-	
+
+	<RecipeDef>
+		<defName>DankPyon_CookGruel_Bulk</defName>
+		<label>cook porridge x5</label>
+		<description>cook 5 porridge.</description>
+		<jobString>Cooking 5 porridge.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawWheat</li>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>1.50</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Gruel>5</DankPyon_Gruel>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_RawWheat</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>1125</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
 	<!-- Spaghetti -->
 	<RecipeDef>
 		<defName>DankPyon_CookSpaghetti</defName>
@@ -193,7 +311,91 @@
 				<li>Meat_Megaspider</li>
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
-		<workAmount>350</workAmount>
+		<workAmount>225</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>DankPyon_CookSpaghetti_Bulk</defName>
+		<label>cook spaghetti dish x5</label>
+		<description>cook spaghetti dish.</description>
+		<jobString>Cooking spaghetti dish.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>1.0</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+          			</categories>
+				</filter>
+				<count>0.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawLentils</li>
+          			</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawHerb</li>
+          			</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Spaghetti>5</DankPyon_Spaghetti>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+				<li>DankPyon_Cheese</li>
+			</categories>
+			<thingDefs>
+				<li>DankPyon_Flour</li>
+				<li>DankPyon_RawLentils</li>
+				<li>DankPyon_RawHerb</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>1125</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
@@ -279,7 +481,78 @@
 			<li>DankPyon_StoneOven</li>
 		</recipeUsers>
 	</RecipeDef>
-	
+
+	<RecipeDef>
+		<defName>DankPyon_BakeCookie_Chocolate_Bulk</defName>
+		<label>bake choclate cookie x10</label>
+		<description>bake 10 chocolate cookies.</description>
+		<jobString>Baking 10 chocolate cookies.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>DankPyon_Milk</li>
+          			</categories>
+				</filter>
+				<count>1.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>2.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chocolate</li>
+          			</thingDefs>
+				</filter>
+				<count>1.25</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Cookie_Chocolate>10</DankPyon_Cookie_Chocolate>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_Flour</li>
+				<li>Chocolate</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>1750</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
 	<!-- Croissant -->
 	<RecipeDef>
 		<defName>DankPyon_BakeCroissant</defName>
@@ -334,6 +607,59 @@
 		</recipeUsers>
 	</RecipeDef>
 	
+	<RecipeDef>
+		<defName>DankPyon_BakeCroissant_Bulk</defName>
+		<label>bake croissant x10</label>
+		<description>Bake 10 croissants.</description>
+		<jobString>Baking 10 croissants.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+					</thingDefs>
+				</filter>
+				<count>2.5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>DankPyon_Milk</li>
+					</categories>
+				</filter>
+				<count>2.5</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Croissant>10</DankPyon_Croissant>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>DankPyon_Milk</li>
+			</categories>
+			<thingDefs>
+				<li>DankPyon_Flour</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<workAmount>1750</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
 	<!-- Meat Fritter -->
 	<!--RecipeDef>
 		<defName>DankPyon_BakeMeatFritter</defName>
@@ -471,7 +797,7 @@
 				<li>Meat_Megaspider</li>
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
-		<workAmount>350</workAmount>
+		<workAmount>225</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
@@ -484,7 +810,91 @@
 			<li>DankPyon_StoneOven</li>
 		</recipeUsers>
 	</RecipeDef>
-	
+
+	<RecipeDef>
+		<defName>DankPyon_CookPenne_Bulk</defName>
+		<label>cook 5 penne dish</label>
+		<description>cook 5 penne dish.</description>
+		<jobString>Cooking penne dish.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>1.5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+          			</categories>
+				</filter>
+				<count>0.50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawLentils</li>
+          			</thingDefs>
+				</filter>
+				<count>0.50</count>
+			</li>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawHerb</li>
+          			</thingDefs>
+				</filter>
+				<count>0.50</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Penne>5</DankPyon_Penne>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+			<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>DankPyon_Flour</li>
+				<li>DankPyon_RawLentils</li>
+				<li>DankPyon_RawHerb</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>1125</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
 	<!-- Flan -->
 	<RecipeDef>
 		<defName>DankPyon_BakePudding</defName>
@@ -568,7 +978,90 @@
 			<li>DankPyon_StoneOven</li>
 		</recipeUsers>
 	</RecipeDef>
-	
+
+	<RecipeDef>
+		<defName>DankPyon_BakePudding_Bulk</defName>
+		<label>bake pudding x10</label>
+		<description>Bake 10 pudding.</description>
+		<jobString>Baking 10 pudding.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>DankPyon_Milk</li>
+          			</categories>
+				</filter>
+				<count>2.5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+          			</categories>
+				</filter>
+				<count>1.0</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Sugar</li>
+          			</thingDefs>
+				</filter>
+				<count>1.0</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Honey</li>
+          			</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Pudding>10</DankPyon_Pudding>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>DankPyon_Milk</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>DankPyon_Sugar</li>
+				<li>DankPyon_Honey</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>1750</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
 	<!-- Mushroom Lentil Pizza -->
 	<RecipeDef>
 		<defName>DankPyon_BakePizza</defName>
@@ -640,11 +1133,156 @@
 			<li>DankPyon_StoneOven</li>
 		</recipeUsers>
 	</RecipeDef>
-	
+
+	<RecipeDef>
+		<defName>DankPyon_BakePizza_Bulk</defName>
+		<label>bake pizza x10</label>
+		<description>Bake 10 pizzas.</description>
+		<jobString>Baking 10 pizzas.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+					</thingDefs>
+				</filter>
+				<count>1.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawFungus</li>
+					</thingDefs>
+				</filter>
+				<count>1.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawLentils</li>
+					</thingDefs>
+				</filter>
+				<count>1.25</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>DankPyon_Cheese</li>
+					</categories>
+				</filter>
+				<count>1.25</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Pizza>10</DankPyon_Pizza>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>DankPyon_Cheese</li>
+			</categories>
+			<thingDefs>
+				<li>DankPyon_Flour</li>
+				<li>RawFungus</li>
+				<li>DankPyon_RawLentils</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<workAmount>1750</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
 	<!-- Advanced -->
 	<!-- Meat Pie -->
 	<RecipeDef>
 		<defName>DankPyon_BakeMeatPie</defName>
+		<label>bake meat pie</label>
+		<description>Bake meat pies.</description>
+		<jobString>Baking meat pies.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+          			</categories>
+				</filter>
+				<count>0.3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>0.15</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>DankPyon_Milk</li>
+          			</categories>
+				</filter>
+				<count>0.05</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_MeatPie>1</DankPyon_MeatPie>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>DankPyon_Milk</li>
+				<li>MeatRaw</li>
+			</categories>
+			<thingDefs>
+				<li>DankPyon_Flour</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>415</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>DankPyon_BakeMeatPie_Bulk</defName>
 		<label>bake meat pie x3</label>
 		<description>Bake 3 meat pies.</description>
 		<jobString>Baking 3 meat pies.</jobString>
@@ -657,7 +1295,7 @@
 						<li>MeatRaw</li>
           			</categories>
 				</filter>
-				<count>2</count>
+				<count>0.9</count>
 			</li>
 			<li>
 				<filter>
@@ -665,7 +1303,15 @@
 						<li>DankPyon_Flour</li>
           			</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>0.45</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>DankPyon_Milk</li>
+          			</categories>
+				</filter>
+				<count>0.15</count>
 			</li>
 		</ingredients>
 		<products>
@@ -695,7 +1341,7 @@
 				<li>Meat_Megaspider</li>
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
-		<workAmount>350</workAmount>
+		<workAmount>1245</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
@@ -810,6 +1456,107 @@
 			<li>DankPyon_StoneOven</li>
 		</recipeUsers>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>DankPyon_CookRaviolli</defName>
+		<label>cook raviolli x10</label>
+		<description>cook 10 raviolli.</description>
+		<jobString>Cooking 10 raviolli.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>DankPyon_Cheese</li>
+          			</categories>
+				</filter>
+				<count>4.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>2.50</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+          			</categories>
+				</filter>
+				<count>1.00</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawTomatoes</li>
+					</thingDefs>
+				</filter>
+				<count>1.00</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Spices</li>
+					</thingDefs>
+				</filter>
+				<count>0.50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Wine</li>
+          			</thingDefs>
+				</filter>
+				<count>0.75</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Raviolli>10</DankPyon_Raviolli>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>DankPyon_Cheese</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>DankPyon_RawTomatoes</li>
+				<li>DankPyon_Flour</li>
+				<li>DankPyon_Spices</li>
+				<li>DankPyon_Wine</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>1750</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
 
 	<!-- Honey Steak -->
 	<RecipeDef>
@@ -855,6 +1602,91 @@
 		</ingredients>
 		<products>
 			<DankPyon_GlazedSteak>1</DankPyon_GlazedSteak>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			<thingDefs>
+				<li>DankPyon_Ale</li>
+				<li>DankPyon_Salt</li>
+				<li>DankPyon_Honey</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>1100</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_AdvancedCooking</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_RusticCookingTable</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Cooking>12</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>DankPyon_CookHoneySteak_Bulk</defName>
+		<label>cook 2 honey glazed steak</label>
+		<description>Cook 2 honey glazed steaks.</description>
+		<jobString>Cook 2 honey glazed steaks.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+          			</categories>
+				</filter>
+				<count>0.60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Ale</li>
+					</thingDefs>
+				</filter>
+				<count>0.20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Salt</li>
+					</thingDefs>
+				</filter>
+				<count>0.20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Honey</li>
+          			</thingDefs>
+				</filter>
+				<count>0.40</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_GlazedSteak>2</DankPyon_GlazedSteak>
 		</products>
 		<fixedIngredientFilter>
 			<categories>
@@ -960,6 +1792,81 @@
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
 		<workAmount>350</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_Oven</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>DankPyon_StoneOven</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>DankPyon_BakeTurnover_Bulk</defName>
+		<label>bake turnover x10</label>
+		<description>bake 10 turnovers.</description>
+		<jobString>Baking 10 turnovers.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>DankPyon_Cheese</li>
+          			</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>1.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Honey</li>
+          			</thingDefs>
+				</filter>
+				<count>1.5</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Turnover>10</DankPyon_Turnover>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>DankPyon_Cheese</li>
+			</categories>
+			<thingDefs>
+				<li>DankPyon_Flour</li>
+				<li>DankPyon_Sugar</li>
+				<li>DankPyon_Honey</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>1750</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
