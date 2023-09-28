@@ -1,6 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	
+
+	<!-- No Research Cooking -->
+	<!-- Porridge -->
+	<RecipeDef>
+		<defName>DankPyon_CookGruel</defName>
+		<label>cook porridge</label>
+		<description>cook porridge.</description>
+		<jobString>Cooking porridge.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawWheat</li>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>0.30</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Gruel>1</DankPyon_Gruel>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_RawWheat</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>225</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<recipeUsers>
+			<li>DankPyon_RusticCookingTable</li>
+			<li>Campfire</li>
+			<li>DankPyon_RusticHearth</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>DankPyon_CookGruel_Bulk</defName>
+		<label>cook porridge x5</label>
+		<description>cook 5 porridge.</description>
+		<jobString>Cooking 5 porridge.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawWheat</li>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>1.50</count>
+			</li>
+		</ingredients>
+		<products>
+			<DankPyon_Gruel>5</DankPyon_Gruel>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_RawWheat</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workAmount>1125</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<recipeUsers>
+			<li>DankPyon_RusticCookingTable</li>
+			<li>Campfire</li>
+			<li>DankPyon_RusticHearth</li>
+		</recipeUsers>
+	</RecipeDef>
+
 	<!-- Basic -->
 	<!-- Cookie -->
 	<RecipeDef>
@@ -124,113 +232,6 @@
 		</researchPrerequisites>
 		<recipeUsers>
 			<li>DankPyon_StoneOven</li>
-		</recipeUsers>
-	</RecipeDef>
-
-	<!-- Porridge -->
-	<RecipeDef>
-		<defName>DankPyon_CookGruel</defName>
-		<label>cook porridge</label>
-		<description>cook porridge.</description>
-		<jobString>Cooking porridge.</jobString>
-		<allowMixingIngredients>true</allowMixingIngredients>
-		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>DankPyon_RawWheat</li>
-						<li>DankPyon_Flour</li>
-          			</thingDefs>
-				</filter>
-				<count>0.30</count>
-			</li>
-		</ingredients>
-		<products>
-			<DankPyon_Gruel>1</DankPyon_Gruel>
-		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>DankPyon_RawWheat</li>
-			</thingDefs>
-			<specialFiltersToDisallow>
-				<li>AllowRotten</li>
-			</specialFiltersToDisallow>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<categories>
-				<li>FoodRaw</li>
-			</categories>
-			<disallowedCategories>
-				<li>EggsFertilized</li>
-			</disallowedCategories>
-			<disallowedThingDefs>
-				<li>Meat_Human</li>
-				<li>Meat_Megaspider</li>
-			</disallowedThingDefs>
-		</defaultIngredientFilter>
-		<workAmount>225</workAmount>
-		<workSpeedStat>CookSpeed</workSpeedStat>
-		<workSkill>Cooking</workSkill>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_CookMeal</soundWorking>
-		<recipeUsers>
-			<li>DankPyon_RusticCookingTable</li>
-			<li>Campfire</li>
-			<li>DankPyon_RusticHearth</li>
-		</recipeUsers>
-	</RecipeDef>
-
-	<RecipeDef>
-		<defName>DankPyon_CookGruel_Bulk</defName>
-		<label>cook porridge x5</label>
-		<description>cook 5 porridge.</description>
-		<jobString>Cooking 5 porridge.</jobString>
-		<allowMixingIngredients>true</allowMixingIngredients>
-		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>DankPyon_RawWheat</li>
-						<li>DankPyon_Flour</li>
-          			</thingDefs>
-				</filter>
-				<count>1.50</count>
-			</li>
-		</ingredients>
-		<products>
-			<DankPyon_Gruel>5</DankPyon_Gruel>
-		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>DankPyon_RawWheat</li>
-			</thingDefs>
-			<specialFiltersToDisallow>
-				<li>AllowRotten</li>
-			</specialFiltersToDisallow>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<categories>
-				<li>FoodRaw</li>
-			</categories>
-			<disallowedCategories>
-				<li>EggsFertilized</li>
-			</disallowedCategories>
-			<disallowedThingDefs>
-				<li>Meat_Human</li>
-				<li>Meat_Megaspider</li>
-			</disallowedThingDefs>
-		</defaultIngredientFilter>
-		<workAmount>1125</workAmount>
-		<workSpeedStat>CookSpeed</workSpeedStat>
-		<workSkill>Cooking</workSkill>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_CookMeal</soundWorking>
-		<recipeUsers>
-			<li>DankPyon_RusticCookingTable</li>
-			<li>Campfire</li>
-			<li>DankPyon_RusticHearth</li>
 		</recipeUsers>
 	</RecipeDef>
 
