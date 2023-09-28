@@ -66,7 +66,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>DankPyon_BakeCookie</defName>
+		<defName>DankPyon_BakeCookie_Bulk</defName>
 		<label>bake cookie x10</label>
 		<description>bake 10 cookies.</description>
 		<jobString>Baking 10 cookies.</jobString>
@@ -1447,7 +1447,7 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>DankPyon_CookRaviolli</defName>
+		<defName>DankPyon_CookRaviolli_Bulk</defName>
 		<label>cook raviolli x10</label>
 		<description>cook 10 raviolli.</description>
 		<jobString>Cooking 10 raviolli.</jobString>
