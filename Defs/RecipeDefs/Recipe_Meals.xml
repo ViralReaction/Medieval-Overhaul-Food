@@ -58,7 +58,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -121,7 +120,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -176,12 +174,10 @@
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
-		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
-			<li>DankPyon_Oven</li>
-		</researchPrerequisites>
 		<recipeUsers>
-			<li>DankPyon_StoneOven</li>
+			<li>DankPyon_RusticCookingTable</li>
+			<li>Campfire</li>
+			<li>DankPyon_RusticHearth</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -231,12 +227,10 @@
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
-		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
-			<li>DankPyon_Oven</li>
-		</researchPrerequisites>
 		<recipeUsers>
-			<li>DankPyon_StoneOven</li>
+			<li>DankPyon_RusticCookingTable</li>
+			<li>Campfire</li>
+			<li>DankPyon_RusticHearth</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -318,10 +312,9 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
 			<li>DankPyon_BasicCooking</li>
-			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
-			<li>DankPyon_StoneOven</li>
+			<li>DankPyon_RusticCookingTable</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -402,10 +395,9 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
 			<li>DankPyon_BasicCooking</li>
-			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
-			<li>DankPyon_StoneOven</li>
+			<li>DankPyon_RusticCookingTable</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -474,7 +466,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_IntermediateCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -545,7 +537,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_IntermediateCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -599,7 +591,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_IntermediateCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -652,7 +644,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_IntermediateCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -803,11 +795,10 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
-			<li>DankPyon_Oven</li>
+			<li>DankPyon_IntermediateCooking</li>
 		</researchPrerequisites>
 		<recipeUsers>
-			<li>DankPyon_StoneOven</li>
+			<li>DankPyon_RusticCookingTable</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -887,11 +878,10 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
-			<li>DankPyon_Oven</li>
+			<li>DankPyon_IntermediateCooking</li>
 		</researchPrerequisites>
 		<recipeUsers>
-			<li>DankPyon_StoneOven</li>
+			<li>DankPyon_RusticCookingTable</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -971,7 +961,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_IntermediateCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -1054,7 +1044,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_IntermediateCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -1064,7 +1054,7 @@
 
 	<!-- Mushroom Lentil Pizza -->
 	<RecipeDef>
-		<defName>DankPyon_BakePizza</defName>
+		<defName>DankPyon_IntermediatePizza</defName>
 		<label>bake pizza x2</label>
 		<description>Bake 2 pizzas.</description>
 		<jobString>Baking 2 pizzas.</jobString>
@@ -1126,7 +1116,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_IntermediateCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -1197,7 +1187,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_IntermediateCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -1273,7 +1263,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_AdvancedCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -1347,7 +1337,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_AdvancedCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -1449,11 +1439,10 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
-			<li>DankPyon_Oven</li>
+			<li>DankPyon_AdvancedCooking</li>
 		</researchPrerequisites>
 		<recipeUsers>
-			<li>DankPyon_StoneOven</li>
+			<li>DankPyon_RusticCookingTable</li>
 		</recipeUsers>
 	</RecipeDef>
 	
@@ -1550,11 +1539,10 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
-			<li>DankPyon_Oven</li>
+			<li>DankPyon_AdvancedCooking</li>
 		</researchPrerequisites>
 		<recipeUsers>
-			<li>DankPyon_StoneOven</li>
+			<li>DankPyon_RusticCookingTable</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -1635,9 +1623,10 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
 			<li>DankPyon_AdvancedCooking</li>
+			<li>DankPyon_Grill</li>
 		</researchPrerequisites>
 		<recipeUsers>
-			<li>DankPyon_RusticCookingTable</li>
+			 <li>DankPyon_Grill</li>	
 		</recipeUsers>
 		<skillRequirements>
 			<Cooking>12</Cooking>
@@ -1720,9 +1709,10 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
 			<li>DankPyon_AdvancedCooking</li>
+			<li>DankPyon_Grill</li>
 		</researchPrerequisites>
 		<recipeUsers>
-			<li>DankPyon_RusticCookingTable</li>
+			 <li>DankPyon_Grill</li>	
 		</recipeUsers>
 		<skillRequirements>
 			<Cooking>12</Cooking>
@@ -1797,7 +1787,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_AdvancedCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
@@ -1872,7 +1862,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<researchPrerequisites>
-			<li>DankPyon_BasicCooking</li>
+			<li>DankPyon_AdvancedCooking</li>
 			<li>DankPyon_Oven</li>
 		</researchPrerequisites>
 		<recipeUsers>
