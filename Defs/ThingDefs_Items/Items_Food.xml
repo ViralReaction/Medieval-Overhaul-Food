@@ -6,7 +6,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Cookie</defName>
 		<label>cookie</label>
-		<description>WIP</description>
+		<description>A delightful treat baked to perfection, offering a moment of comfort and a burst of sugary energy for your colonists.</description>
 		<graphicData>
 			<texPath>Meal/Cookie</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -35,7 +35,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Gruel</defName>
 		<label>porridge</label>
-		<description>WIP</description>
+		<description>A simple, nutritionally balanced meal made from processed grains and vegetables, perfect for sustaining colonists during the harshest of times.</description>
 		<graphicData>
 			<texPath>Meal/Porridge</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -57,8 +57,8 @@
 	<!-- Spaghetti -->
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Spaghetti</defName>
-		<label>porridge</label>
-		<description>WIP</description>
+		<label>spaghetti</label>
+		<description>A hearty dish of pasta smothered in a rich tomato sauce, a comfort food that warms both the belly and the soul.</description>
 		<graphicData>
 			<texPath>Meal/PastaSpaghet</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -87,8 +87,8 @@
 	<!-- Chocolate Cookie -->
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Cookie_Chocolate</defName>
-		<label>porridge</label>
-		<description>WIP</description>
+		<label>chocolate chip</label>
+		<description>A delightful treat filled with gooey chocolate chips, providing a delightful combination of sweetness and texture to brighten anyone's day.</description>
 		<graphicData>
 			<texPath>Meal/ChocolateCookie</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -117,7 +117,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Croissant</defName>
 		<label>croissant</label>
-		<description>WIP</description>
+		<description>A flaky, buttery pastry that exudes a warm, comforting aroma, perfect for a continental breakfast or a delightful snack.</description>
 		<graphicData>
 			<texPath>Meal/Croissant</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -175,7 +175,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Pudding</defName>
 		<label>pudding</label>
-		<description>WIP</description>
+		<description>A silky, custard dessert crowned with a luscious caramel drizzle, offering a harmonious blend of sweetness and creaminess.</description>
 		<graphicData>
 			<texPath>Meal/Pudding</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -204,7 +204,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Penne</defName>
 		<label>penne</label>
-		<description>WIP</description>
+		<description>Firm and versatile tube-shaped pasta, ideal for capturing and delivering the flavors of your favorite sauces.</description>
 		<graphicData>
 			<texPath>Meal/PastaPenne</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -234,7 +234,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Pizza</defName>
 		<label>pizza</label>
-		<description>WIP</description>
+		<description>A savory delight topped with earthy mushrooms and melted cheese, providing a delightful umami burst in every bite.</description>
 		<graphicData>
 			<texPath>Meal/MedPizza</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -264,7 +264,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_MeatPie</defName>
 		<label>meat pie</label>
-		<description>WIP</description>
+		<description>A savory pastry filled with a delectable mixture of seasoned meat and hearty ingredients, a satisfying and comforting meal for all occasions.</description>
 		<graphicData>
 			<texPath>Meal/MeatPie</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -292,8 +292,8 @@
 	<!-- Raviolli -->
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Raviolli</defName>
-		<label>meat pie</label>
-		<description>WIP</description>
+		<label>raviolli</label>
+		<description>Delicate pasta pockets filled with a flavorful blend of cheese, herbs, or other delicious fillings, served in a savory sauce for a gourmet dining experience.</description>
 		<graphicData>
 			<texPath>Meal/PastaRaviolli</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -322,7 +322,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_GlazedSteak</defName>
 		<label>glazed steak</label>
-		<description>WIP</description>
+		<description>A succulent cut of steak marinated and seared to perfection, then generously drizzled with a sweet and savory honey glaze, offering a delightful combination of flavors and textures.</description>
 		<graphicData>
 			<texPath>Meal/HoneySteak</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -351,7 +351,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Turnover</defName>
 		<label>cheese turnover</label>
-		<description>WIP</description>
+		<description>A flaky pastry parcel filled with a creamy, melted cheese center, providing a savory and satisfying snack or appetizer.</description>
 		<graphicData>
 			<texPath>Meal/Turnover</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
