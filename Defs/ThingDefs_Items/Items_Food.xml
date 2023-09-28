@@ -58,7 +58,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>DankPyon_Spaghetti</defName>
 		<label>spaghetti</label>
-		<description>A hearty dish of pasta smothered in a rich tomato sauce, a comfort food that warms both the belly and the soul.</description>
+		<description>A wholesome dish featuring hearty lentils paired with seasonings and sauces for a satisfying and flavorful meal.</description>
 		<graphicData>
 			<texPath>Meal/PastaSpaghet</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
